@@ -1,0 +1,16 @@
+header {
+    background-color: bisque;
+    nav {
+        ul {
+            li {
+                list-style-type: none;
+                a {
+                    &:hover {
+                        text-decoration: none;
+
+                    }            
+                }
+            }
+        }
+    }
+}
