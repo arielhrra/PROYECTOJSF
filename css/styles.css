@@ -4,3 +4,30 @@ header {
     list-style-type: none; }
     header nav ul li a:hover {
       text-decoration: none; }
+
+/*MAPS*/
+.facebook {
+  color: #3458eb; }
+
+.instagram {
+  color: #d342ff; }
+
+.twitter {
+  color: blue; }
+
+.whatsapp {
+  color: green; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*MIXIN*/
+.parrafosDos {
+  font-size: 50px;
+  text-align: right; }

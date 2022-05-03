@@ -1,0 +1,11 @@
+/*MIXIN*/
+
+@mixin parrafoconParametros ($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+}
+
+.parrafosDos {
+    @include parrafoconParametros(50px,right)
+    
+}

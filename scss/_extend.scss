@@ -1,0 +1,13 @@
+/*EXTEND*/
+
+.primerEstilo {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.segundoEstilo {
+    @extend .primerEstilo;
+    font-size: 35px;
+}
+
